@@ -1,39 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20230915 18:23:50.442" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20230915 18:53:42.735" rpa="false" schemaversion="4">
 <suite id="s1" name="Home" source="C:\walkdog\home.robot">
 <test id="s1-t1" name="Webapp WalkDog deve estar online" line="6">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>https://walkdog.vercel.app/</arg>
+<arg>browser=chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20230915 18:23:50.696" level="INFO">Opening browser 'firefox' to base url 'https://walkdog.vercel.app/'.</msg>
-<status status="PASS" starttime="20230915 18:23:50.696" endtime="20230915 18:23:58.860"/>
+<msg timestamp="20230915 18:53:43.016" level="INFO">Opening browser 'chrome' to base url 'https://walkdog.vercel.app/'.</msg>
+<status status="PASS" starttime="20230915 18:53:43.015" endtime="20230915 18:53:46.335"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://walkdog.vercel.app/</arg>
+<arg>browser=firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230915 18:53:46.336" level="INFO">Opening browser 'firefox' to base url 'https://walkdog.vercel.app/'.</msg>
+<status status="PASS" starttime="20230915 18:53:46.336" endtime="20230915 18:53:54.686"/>
 </kw>
 <kw name="Title Should Be" library="SeleniumLibrary">
 <arg>Walkdog by Papito</arg>
 <doc>Verifies that the current page title equals ``title``.</doc>
-<msg timestamp="20230915 18:23:58.864" level="INFO">Page title is 'Walkdog by Papito'.</msg>
-<status status="PASS" starttime="20230915 18:23:58.861" endtime="20230915 18:23:58.864"/>
+<msg timestamp="20230915 18:53:54.688" level="INFO">Page title is 'Walkdog by Papito'.</msg>
+<status status="PASS" starttime="20230915 18:53:54.686" endtime="20230915 18:53:54.688"/>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>Cuidado e diversão em cada passo</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20230915 18:23:58.899" level="INFO">Current page contains text 'Cuidado e diversão em cada passo'.</msg>
-<status status="PASS" starttime="20230915 18:23:58.865" endtime="20230915 18:23:58.899"/>
+<msg timestamp="20230915 18:53:54.771" level="INFO">Current page contains text 'Cuidado e diversão em cada passo'.</msg>
+<status status="PASS" starttime="20230915 18:53:54.689" endtime="20230915 18:53:54.771"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20230915 18:24:03.900" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20230915 18:23:58.899" endtime="20230915 18:24:03.900"/>
+<msg timestamp="20230915 18:53:59.772" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230915 18:53:54.772" endtime="20230915 18:53:59.772"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20230915 18:24:03.900" endtime="20230915 18:24:07.159"/>
+<status status="PASS" starttime="20230915 18:53:59.773" endtime="20230915 18:54:03.453"/>
 </kw>
-<status status="PASS" starttime="20230915 18:23:50.695" endtime="20230915 18:24:07.159"/>
+<status status="PASS" starttime="20230915 18:53:43.015" endtime="20230915 18:54:03.453"/>
 </test>
 <doc>Suite de testes da pagina principal</doc>
-<status status="PASS" starttime="20230915 18:23:50.447" endtime="20230915 18:24:07.162"/>
+<status status="PASS" starttime="20230915 18:53:42.738" endtime="20230915 18:54:03.453"/>
 </suite>
 <statistics>
 <total>
