@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20230915 14:21:30.743" rpa="false" schemaversion="4">
-<suite id="s1" name="Hello" source="C:\walkdog\hello.robot">
-<test id="s1-t1" name="Hello World Test" line="2">
-<kw name="Log" library="BuiltIn">
-<arg>Hello, World!</arg>
-<doc>Logs the given message with the given level.</doc>
-<msg timestamp="20230915 14:21:30.767" level="INFO">Hello, World!</msg>
-<status status="PASS" starttime="20230915 14:21:30.767" endtime="20230915 14:21:30.767"/>
+<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20230915 14:55:08.371" rpa="false" schemaversion="4">
+<suite id="s1" name="Exemplo" source="C:\walkdog\exemplo.robot">
+<test id="s1-t1" name="Verificar Mensagem &quot;Example Domain&quot;" line="6">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.example.com</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230915 14:55:08.603" level="INFO">Opening browser 'firefox' to base url 'https://www.example.com'.</msg>
+<status status="PASS" starttime="20230915 14:55:08.603" endtime="20230915 14:55:14.936"/>
 </kw>
-<status status="PASS" starttime="20230915 14:21:30.766" endtime="20230915 14:21:30.768"/>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<arg>Example Domain</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<msg timestamp="20230915 14:55:14.944" level="INFO">Page title is 'Example Domain'.</msg>
+<status status="PASS" starttime="20230915 14:55:14.937" endtime="20230915 14:55:14.944"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>This domain is for use in illustrative examples in documents</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20230915 14:55:14.968" level="INFO">Current page contains text 'This domain is for use in illustrative examples in documents'.</msg>
+<status status="PASS" starttime="20230915 14:55:14.944" endtime="20230915 14:55:14.968"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230915 14:55:14.969" endtime="20230915 14:55:18.052"/>
+</kw>
+<status status="PASS" starttime="20230915 14:55:08.601" endtime="20230915 14:55:18.053"/>
 </test>
-<status status="PASS" starttime="20230915 14:21:30.746" endtime="20230915 14:21:30.769"/>
+<status status="PASS" starttime="20230915 14:55:08.374" endtime="20230915 14:55:18.054"/>
 </suite>
 <statistics>
 <total>
@@ -19,7 +35,7 @@
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Hello">Hello</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Exemplo">Exemplo</stat>
 </suite>
 </statistics>
 <errors>
