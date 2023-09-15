@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20230915 14:21:30.743" rpa="false" schemaversion="4">
+<suite id="s1" name="Hello" source="C:\walkdog\hello.robot">
+<test id="s1-t1" name="Hello World Test" line="2">
+<kw name="Log" library="BuiltIn">
+<arg>Hello, World!</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230915 14:21:30.767" level="INFO">Hello, World!</msg>
+<status status="PASS" starttime="20230915 14:21:30.767" endtime="20230915 14:21:30.767"/>
+</kw>
+<status status="PASS" starttime="20230915 14:21:30.766" endtime="20230915 14:21:30.768"/>
+</test>
+<status status="PASS" starttime="20230915 14:21:30.746" endtime="20230915 14:21:30.769"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Hello">Hello</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
