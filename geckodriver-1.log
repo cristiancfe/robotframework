@@ -1,13 +1,13 @@
-1694799919596	geckodriver	INFO	Listening on 127.0.0.1:59482
-1694799922702	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59483" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\CRISTI~1.EIS\\AppData\\Local\\Temp\\rust_mozprofile2DwaDo"
+1694800687980	geckodriver	INFO	Listening on 127.0.0.1:60493
+1694800691023	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60494" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\CRISTI~1.EIS\\AppData\\Local\\Temp\\rust_mozprofileKfjZes"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1694799925087	Marionette	INFO	Marionette enabled
+1694800691399	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1694799925262	Marionette	INFO	Listening on port 59496
-WebDriver BiDi listening on ws://127.0.0.1:59483
-Read port: 59496
-1694799925587	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:59483/devtools/browser/09e4e574-8142-496c-94a2-06eb65db685f
-console.error: ({})
-JavaScript error: http://www.google.com/adsense/domains/caf.js?abp=1, line 244: uncaught exception: google.ads.domains.Caf: container "search" does not exist.
+1694800691513	Marionette	INFO	Listening on port 60501
+WebDriver BiDi listening on ws://127.0.0.1:60494
+Read port: 60501
+1694800691707	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60494/devtools/browser/8dc2268f-5f0b-49e3-8af0-3d4e3f5bc3f0
+1694800693787	Marionette	INFO	Stopped listening on port 60501
+Dynamically enable window occlusion 1
