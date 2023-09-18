@@ -4,6 +4,7 @@ Library  SeleniumLibrary
 *** Variables ***
 
 ${BROWSER}    headlesschrome
+${BROWSER}    headlessfirefox
 ${URL}        https://walkdog.vercel.app/signup
 
 *** Test Cases ***
@@ -15,7 +16,7 @@ Preencher Formulário
     Input Text    name=cep     94810-420
     Click Element  xpath=//input[@type='button' and @value='Buscar CEP']
     Input Text    name=addressNumber    46
-    
+
     # Adicione aqui mais ações de preenchimento conforme necessário
     Submit Form
    

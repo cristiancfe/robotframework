@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20230916 16:19:00.193" rpa="false" schemaversion="4">
-<suite id="s1" name="Formulario Headless" source="C:\walkdog\formulario_headless.robot">
+<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20230916 23:09:44.264" rpa="false" schemaversion="4">
+<suite id="s1" name="formulario Chrome" source="C:\walkdog\formulario_Chrome.robot">
 <test id="s1-t1" name="Preencher Formulário" line="10">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>${URL}</arg>
 <arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20230916 16:19:00.427" level="INFO">Opening browser 'headlesschrome' to base url 'https://walkdog.vercel.app/signup'.</msg>
-<status status="PASS" starttime="20230916 16:19:00.427" endtime="20230916 16:19:02.718"/>
+<msg timestamp="20230916 23:09:44.521" level="INFO">Opening browser 'chrome' to base url 'https://walkdog.vercel.app/signup'.</msg>
+<status status="PASS" starttime="20230916 23:09:44.521" endtime="20230916 23:09:48.159"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>name=name</arg>
 <arg>Cristian Eisenhut</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230916 16:19:02.719" level="INFO">Typing text 'Cristian Eisenhut' into text field 'name=name'.</msg>
-<status status="PASS" starttime="20230916 16:19:02.719" endtime="20230916 16:19:02.832"/>
+<msg timestamp="20230916 23:09:48.163" level="INFO">Typing text 'Cristian Eisenhut' into text field 'name=name'.</msg>
+<status status="PASS" starttime="20230916 23:09:48.161" endtime="20230916 23:09:48.567"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>name=email</arg>
 <arg>cristianqa@gmail.com</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230916 16:19:02.833" level="INFO">Typing text 'cristianqa@gmail.com' into text field 'name=email'.</msg>
-<status status="PASS" starttime="20230916 16:19:02.832" endtime="20230916 16:19:02.923"/>
+<msg timestamp="20230916 23:09:48.569" level="INFO">Typing text 'cristianqa@gmail.com' into text field 'name=email'.</msg>
+<status status="PASS" starttime="20230916 23:09:48.568" endtime="20230916 23:09:48.806"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>name=cpf</arg>
 <arg>52091197009</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230916 16:19:02.924" level="INFO">Typing text '52091197009' into text field 'name=cpf'.</msg>
-<status status="PASS" starttime="20230916 16:19:02.923" endtime="20230916 16:19:03.006"/>
+<msg timestamp="20230916 23:09:48.808" level="INFO">Typing text '52091197009' into text field 'name=cpf'.</msg>
+<status status="PASS" starttime="20230916 23:09:48.807" endtime="20230916 23:09:49.020"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>name=cep</arg>
 <arg>94810-420</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230916 16:19:03.007" level="INFO">Typing text '94810-420' into text field 'name=cep'.</msg>
-<status status="PASS" starttime="20230916 16:19:03.006" endtime="20230916 16:19:03.084"/>
+<msg timestamp="20230916 23:09:49.022" level="INFO">Typing text '94810-420' into text field 'name=cep'.</msg>
+<status status="PASS" starttime="20230916 23:09:49.021" endtime="20230916 23:09:49.248"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath=//input[@type='button' and @value='Buscar CEP']</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20230916 16:19:03.085" level="INFO">Clicking element 'xpath=//input[@type='button' and @value='Buscar CEP']'.</msg>
-<status status="PASS" starttime="20230916 16:19:03.085" endtime="20230916 16:19:03.133"/>
+<msg timestamp="20230916 23:09:49.249" level="INFO">Clicking element 'xpath=//input[@type='button' and @value='Buscar CEP']'.</msg>
+<status status="PASS" starttime="20230916 23:09:49.249" endtime="20230916 23:09:49.367"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>name=addressNumber</arg>
 <arg>46</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230916 16:19:03.134" level="INFO">Typing text '46' into text field 'name=addressNumber'.</msg>
-<status status="PASS" starttime="20230916 16:19:03.134" endtime="20230916 16:19:03.203"/>
+<msg timestamp="20230916 23:09:49.368" level="INFO">Typing text '46' into text field 'name=addressNumber'.</msg>
+<status status="PASS" starttime="20230916 23:09:49.368" endtime="20230916 23:09:49.539"/>
 </kw>
 <kw name="Submit Form" library="SeleniumLibrary">
 <doc>Submits a form identified by ``locator``.</doc>
-<msg timestamp="20230916 16:19:03.203" level="INFO">Submitting form 'None'.</msg>
-<status status="PASS" starttime="20230916 16:19:03.203" endtime="20230916 16:19:03.226"/>
+<msg timestamp="20230916 23:09:49.540" level="INFO">Submitting form 'None'.</msg>
+<status status="PASS" starttime="20230916 23:09:49.539" endtime="20230916 23:09:49.602"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20230916 16:19:08.227" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20230916 16:19:03.227" endtime="20230916 16:19:08.228"/>
+<msg timestamp="20230916 23:09:54.602" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230916 23:09:49.602" endtime="20230916 23:09:54.602"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20230916 16:19:08.228" endtime="20230916 16:19:10.314"/>
+<status status="PASS" starttime="20230916 23:09:54.602" endtime="20230916 23:09:56.929"/>
 </kw>
-<status status="PASS" starttime="20230916 16:19:00.426" endtime="20230916 16:19:10.316"/>
+<status status="PASS" starttime="20230916 23:09:44.521" endtime="20230916 23:09:56.931"/>
 </test>
-<status status="PASS" starttime="20230916 16:19:00.196" endtime="20230916 16:19:10.319"/>
+<status status="PASS" starttime="20230916 23:09:44.268" endtime="20230916 23:09:56.935"/>
 </suite>
 <statistics>
 <total>
@@ -76,7 +76,7 @@
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Formulario Headless">Formulario Headless</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="formulario Chrome">formulario Chrome</stat>
 </suite>
 </statistics>
 <errors>
