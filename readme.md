@@ -1,7 +1,6 @@
 Para rodar os testes deve-se escrever a palavra robot seguida do nome do arquivo
-Ex: robot formulario_Chrome.robot
 
-Resultado
+Ex: 
 
 <img width="169" alt="robot" src="https://github.com/cristiancfe/robotframework/assets/32318124/659fdd40-8048-4374-89de-c9c107d40901">
 
