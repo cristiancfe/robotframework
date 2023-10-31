@@ -1,8 +1,10 @@
 Para rodar os testes deve-se escrever a palavra robot seguida do nome do arquivo
-Ex: robot hello.robot
+Ex: robot formulario_Chrome.robot
 
 Resultado
-![Alt text](image.png)
+
+<img width="169" alt="robot" src="https://github.com/cristiancfe/robotframework/assets/32318124/659fdd40-8048-4374-89de-c9c107d40901">
+
 
 *** Para rodar em modo headless ***
 
